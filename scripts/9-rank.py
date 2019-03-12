@@ -1,9 +1,9 @@
 import numpy as np
 
-adj = np.load('Adj_v1.1.npy')
-m, n = adj.shape
+#adj = np.load('Adj_v1.1.npy')
+m, n = 1154, 2909
 
-print(m,n)
+#print(m,n)
 
 y_scores = np.load('top10_score.npy')
 
