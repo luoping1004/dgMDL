@@ -9,6 +9,7 @@ The four 'npy' files are the raw features extracted for genes and diseases in th
 
 "5foldIdx_shuffle_RN" contains the indices of the disease-gene pairs used in the 5-fold cross-validation. In the _de novo_ prediction, the training and testing indices are concatenated to generate known data which are used to train the multimodel DBN.
 
+
 The association matrix file "Adj_v1.1.npy" is larger than 25 mb which cannot be uploaded to github. But it can be obtained from the following two cloud drives.
 https://pan.baidu.com/s/109MwXysI5PlMzO2LkNEFNQ code: htu3
 or
