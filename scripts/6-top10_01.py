@@ -39,8 +39,8 @@ train_index = np.concatenate((train_index,test_index))
 
 #------------------------#
 #obtain the test set
-adj = np.load('Adj_v1.1.npy')
-m, n = adj.shape
+#adj = np.load('Adj_v1.1.npy')
+m, n = 1154, 2909
 X_test = {}
 # print(m,n)
 Total = m*n
